@@ -12,6 +12,10 @@
 		38B2E5E62277DE930053604A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B2E5E52277DE930053604A /* Assets.xcassets */; };
 		38B2E5E92277DE930053604A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B2E5E72277DE930053604A /* LaunchScreen.storyboard */; };
 		38B2E5F12277E9B70053604A /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B2E5F02277E9B70053604A /* NotesViewController.swift */; };
+		38B2E5F32277F0650053604A /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B2E5F22277F0650053604A /* Note.swift */; };
+		38B2E5F52277F1080053604A /* NotesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B2E5F42277F1080053604A /* NotesController.swift */; };
+		38B2E5F72277F3500053604A /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B2E5F62277F3500053604A /* NoteTableViewCell.swift */; };
+		38B2E5F92277FFEC0053604A /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B2E5F82277FFEC0053604A /* NoteDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		38B2E5E82277DE930053604A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38B2E5EA2277DE930053604A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38B2E5F02277E9B70053604A /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		38B2E5F22277F0650053604A /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		38B2E5F42277F1080053604A /* NotesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesController.swift; sourceTree = "<group>"; };
+		38B2E5F62277F3500053604A /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		38B2E5F82277FFEC0053604A /* NoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				38B2E5F02277E9B70053604A /* NotesViewController.swift */,
+				38B2E5F82277FFEC0053604A /* NoteDetailViewController.swift */,
+				38B2E5F22277F0650053604A /* Note.swift */,
+				38B2E5F42277F1080053604A /* NotesController.swift */,
 				38B2E5DE2277DE920053604A /* AppDelegate.swift */,
 				38B2E5E22277DE920053604A /* Main.storyboard */,
+				38B2E5F62277F3500053604A /* NoteTableViewCell.swift */,
 				38B2E5E52277DE930053604A /* Assets.xcassets */,
 				38B2E5E72277DE930053604A /* LaunchScreen.storyboard */,
 				38B2E5EA2277DE930053604A /* Info.plist */,
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				38B2E5F12277E9B70053604A /* NotesViewController.swift in Sources */,
+				38B2E5F52277F1080053604A /* NotesController.swift in Sources */,
 				38B2E5DF2277DE920053604A /* AppDelegate.swift in Sources */,
+				38B2E5F72277F3500053604A /* NoteTableViewCell.swift in Sources */,
+				38B2E5F32277F0650053604A /* Note.swift in Sources */,
+				38B2E5F92277FFEC0053604A /* NoteDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
